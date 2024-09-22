@@ -1,0 +1,193 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #e6f7ff;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #004d99;
+}
+
+nav .logo {
+    font-size: 1.7em;
+    color: #fff;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #001f4d;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+#hero p {
+    font-size: 1.3em;
+    margin-bottom: 25px;
+}
+
+#hero a {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+#hero a:hover {
+    color: #ff6600;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    color: #004d99;
+    font-weight: 600;
+}
+
+/* Summary, Experience, Education, and Certifications Section */
+#summary, #experience, #education, #certifications {
+    background-color: #ffffff;
+    padding: 50px 20px;
+}
+
+#summary p, #experience p, #education p {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* Experience Items */
+.experience-item {
+    margin-bottom: 40px;
+}
+
+.experience-item h3 {
+    font-size: 1.6em;
+    color: #004d99;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.experience-item p {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.experience-item ul {
+    list-style-type: circle;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+    background-color: #005bb5;
+}
+
+/* Certifications Section */
+.certification-item {
+    margin-bottom: 20px;
+}
+
+.certification-item h3 {
+    font-size: 1.5em;
+    color: #004d99;
+    margin-bottom: 10px;
+}
+
+.certification-item p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2em;
+}
+
+#contact a {
+    color: #004d99;
+    text-decoration: underline;
+}
+
+#contact a:hover {
+    color: #ff6600;
+}
+
+/* Footer */
+footer {
+    background-color: #00264d;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #cccccc;
+}
